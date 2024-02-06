@@ -3,12 +3,12 @@ import { Outlet } from 'react-router-dom'
 import Footer from './Footer';
 import Navbar from './Navbar';
 const Layout = () => {
-  return <>
- 
+  return <div className='font-mono'> 
   <Navbar />
   <Outlet />
-  <Footer />  
-  </>;
+  <Footer />  </div>;
+ 
+
 }
 
 export default Layout;
