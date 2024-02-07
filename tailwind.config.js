@@ -7,7 +7,7 @@ module.exports = {
       keyframes: {
         highlight: {
           '0%': {
-            backgroundColor: "rgba(270, 175, 80, 0.5)",
+            backgroundColor: "rgba(217, 119, 6, 0.4)",
             color: "white",
           },
           '50%': {
