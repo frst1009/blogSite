@@ -4,3 +4,6 @@
 .App {
   text-align: center;
 }
+.button{
+  @apply uppercase cursor-pointer tracking-wider;
+}
