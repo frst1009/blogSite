@@ -1,8 +1,10 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+  const location = useLocation();
   return (
-    <div className="px-28 z-10 animate-highlight top-0 w-full">
+    <div className={location.pathname === "/" ? "px-28 z-10 animate-highlight top-0 w-full" : "px-28 z-10 top-0 w-full bg-amber-600/80 text-white"}>
       <div className='flex justify-between '>
         <div className="text-md rounded-lg border-2 my-3 font-bold"><a href="/" className='p-1'>VieW</a></div>
       <div className="flex gap-1">

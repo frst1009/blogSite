@@ -1,8 +1,11 @@
 import React from 'react'
+import Cards from '../components/Cards'
 
 function Blogs() {
   return (
-    <div className='flex-grow text-center bg-gray-300'>Blogs</div>
+    <div className='bg-slate-950 w-full'>
+      <Cards/>
+    </div>
   )
 }
 
