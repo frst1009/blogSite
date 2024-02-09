@@ -14,6 +14,7 @@ function Cards() {
         };
         fetchArticles();
       }, []);
+
       // useEffect(() => {
       //   axios.get('http://localhost:3000/api/book')
       //     .then(res => {
@@ -27,17 +28,21 @@ function Cards() {
     
 
   return (
-    <div className='grid grid-cols-3 gap-10 my-12 mx-24 '>
+    <div className='grid grid-cols-3 gap-10 my-12 mx-24'>
       {articles.map((article)=>( 
-        <div key={article.id} className=' text-gray-200 rounded-xl bg-[#e19238]/4 hover:scale-110 duration-500 hover:border-2 hover:border-purple-400 hover:shadow-md hover:shadow-gray-700'>
-          <img src={article.url} alt="" className='w-full h-56 rounded-t-lg' />
-        <div className='h-12 px-3 py-1'>
-          <span className="flex flex-row text-md uppercase"> {article.title.length > 10
+        <div key={article.id} className=' text-gray-200 rounded-xl bg-[#e19238]/4 hover:scale-110 duration-500 hover:border-2 hover:border-purple-400 hover:shadow-md hover:shadow-gray-700 relative'>
+          <img src="https://www.w3schools.com/howto/img_5terre.jpg" alt="" className='w-full h-52 rounded-t-lg overflow-hidden bg-cover' />
+        <div className=' h-16 px-2 py-1 flex justify-between'>
+          <div className='font-chakra'><span className="flex flex-row font-semibold text-sm uppercase"> {article.title.length > 10
                             ? article.title.substring(0, 20)
                             : article.title}</span>
-        <span className="flex flex-row text-xs">{article.title.length > 10
+        <span className="flex flex-row text-xs italic">{article.title.length > 10
                             ? article.title.substring(0, 20)
-                            : article.title}</span></div></div>
+                            : article.title}</span></div>
+                            <div className="text-xs italic font-space absolute bottom-0"><span className='flex items-center underline decoration-sky-500'>Created by: {article.title.length > 5
+                            ? article.title.substring(0, 5)
+                            : article.title}</span> </div>
+                            </div></div>
       ))}
        </div>
   )

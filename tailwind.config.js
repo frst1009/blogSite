@@ -4,6 +4,10 @@ module.exports = {
 './src/pages/**/*.{js,jsx}'],
   theme: {
     extend: {
+      fontFamily:{
+space:["Space Grotesk"],
+chakra:['Chakra Petch'],
+      },
       keyframes: {
         highlight: {
           '0%': {
