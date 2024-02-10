@@ -1,0 +1,16 @@
+import React from 'react'
+
+function Content() {
+  return (
+    <div className='w-full flex justify-center flex-col items-center bg-black/95'>
+        <div className=' w-9/12 h-52 flex flex-col items-center rounded-b-3xl border-x-2 border-b-2'><img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="" className=' w-full h-full object-cover rounded-b-3xl' />
+        <div className='m-7 text-neutral-50'><p>Title</p></div>
+        </div>
+        <div className=' w-9/12 h-full text-neutral-50 text-center m-20 border-2 rounded-3xl p-3 '>
+            <span className='text-xs'>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.Marvel Studios releases its films in groups called "Phases", with the first three phases collectively known as "The Infinity Saga" and the following three phases as "The Multiverse Saga". The first MCU film, Iron Man (2008), began Phase One, which culminated in the 2012 crossover film The Avengers. Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America: Civil War (2016) and concluded with Spider-Man: Far From Home (2019). Phase Four began with Black Widow (2021) and concluded with Black Panther: Wakanda Forever (2022). Ant-Man and the Wasp: Quantumania (2023) began Phase Five, which will end with Captain America: Brave New World (2025), and Phase Six will begin with Fantastic Four (2025). Phase Six and "The Multiverse Saga" will conclude with Avengers 5 (2026) and Avengers: Secret Wars (2027).Marvel Television expanded the universe to network television with Agents of S.H.I.E.L.D. on ABC in 2013 before further expanding to streaming television on Netflix and Hulu and to cable television on Freeform. They also produced the digital series Agents of S.H.I.E.L.D.: Slingshot. Marvel Studios began producing their own television series for streaming on Disney+, starting with WandaVision in 2021 as the beginning of Phase Four. They also expanded to television specials in Phase Four, known as Marvel Studios Special Presentations, the first of which was Werewolf by Night (2022). The MCU also includes tie-in comics published by Marvel Comics, a series of direct-to-video short films called Marvel One-Shots, and viral marketing campaigns for the films featuring the faux news programs WHIH Newsfront and The Daily Bugle.The franchise has been commercially successful, becoming one of the highest-grossing media franchises of all time, and generally received positive reviews. It has inspired other film and television studios to attempt similar shared universes and has also inspired several themed attractions, an art exhibit, television specials, literary material, multiple tie-in video games, and commercials.</span>
+        </div>
+    </div>
+  )
+}
+
+export default Content

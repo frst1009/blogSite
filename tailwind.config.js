@@ -4,6 +4,9 @@ module.exports = {
 './src/pages/**/*.{js,jsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'image': "url('./assets/15.jpg')",
+      },
       fontFamily:{
 space:["Space Grotesk"],
 chakra:['Chakra Petch'],
