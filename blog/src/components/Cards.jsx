@@ -46,13 +46,13 @@ function Cards() {
         <span className="flex flex-row text-xs italic">{article.title.length > 10
                             ? article.title.substring(0, 20)
                             : article.title}</span></div>
-                            <div className="text-xs italic font-space absolute bottom-0">
-                              <span className='flex items-center underline decoration-sky-500'>
+                            <div className="text-xs italic font-chakra absolute bottom-1 flex">
+                              <span className='underline decoration-sky-500'>
                                 Created by: Dr.Strange
                                 {/* {article.title.length > 5
                             ? article.title.substring(0, 5)
                             : article.title} */}
-                            </span> </div>
+                            </span> <span className=' ml-20'>Date: 11.02.2024</span> </div>
                             </div></div></Link>
       ))}
        </div>

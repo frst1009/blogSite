@@ -10,6 +10,7 @@ const Navbar = () => {
       <div className="flex gap-1">
        <div className='button font-bold transition ease-in duration-700 hover:border-b-4 hover:border-purple-400 p-3 hover:bg-indigo-800/50'><a href="/">Home</a></div> 
        <div className='button font-bold transition ease-in duration-700 hover:border-b-4 hover:border-purple-400 p-3 hover:bg-indigo-800/50'><a href="/about" >About</a></div> 
+       {location.pathname=== "/content" ?  <div className='button font-bold transition ease-in duration-700 hover:border-b-4 hover:border-purple-400 p-3 hover:bg-indigo-800/50'><a href="/blogs" >Blogs</a></div> : ""}
       </div></div>
       
     </div>

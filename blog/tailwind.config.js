@@ -7,6 +7,11 @@ module.exports = {
       backgroundImage: {
         'image': "url('./assets/15.jpg')",
       },
+      backgroundColor:{
+        "dark":{
+          backgroundColor:"rgb(7,7,110)",
+          }
+      },
       fontFamily:{
 space:["Space Grotesk"],
 chakra:['Chakra Petch'],
