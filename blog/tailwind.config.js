@@ -7,6 +7,10 @@ module.exports = {
       backgroundImage: {
         'image': "url('./assets/15.jpg')",
       },
+      fontSize:{
+        s:"0.57rem",
+        t:"0.70rem"
+      },
       backgroundColor:{
         "dark":{
           backgroundColor:"rgb(7,7,110)",
